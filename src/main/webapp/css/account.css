@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+* {
+  font-family: Poppins;
+}
+
+.user-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 45%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+}
+
+.user-info-container {
+  padding: 2px 16px;
+}
+
+.main-container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.user-image {
+	display: flex;
+    justify-content: center;
+}
+
+.user-image img{
+	border-radius: 50%;
+	max-width: 60%
+}
+
+.user-info {
+	margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-buttons {
+	display: flex;
+}
+
+.user-buttons form {
+	margin: 0px 20px;
+}
+
+.user-buttons .update-button {
+	padding: 10px;
+    border: none;
+    background-color: #786fc2;
+    color: white;
+    cursor: pointer;
+}
+
+.update-button:hover {
+	background-color: #6f66b4;
+}
+
+.user-buttons .logout-button {
+	padding: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+	background-color: #c2c2c2;
+}
+
+.user-buttons .delete-button {
+	padding: 10px;
+    border: none;
+    background-color: #E34234;
+    color: black;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+	background-color: #A52A2A;
+}

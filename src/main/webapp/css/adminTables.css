@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+/* FOR TABLE */
+.container {
+	display: flex;
+    width: 100%;
+}
+
+.header-container { 
+    display: flex;
+    background: #fff;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 0px 24px;
+    justify-content: center;
+  }
+
+  .table{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #786FC2;
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 0px #fbebeb);
+    max-width: 100%;
+  }
+  
+  .table-heading {
+  	display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0px 50px;
+  }
+  
+  .table-heading a {
+  	color: #333333;
+    font-size: 15px;
+  }
+
+  .table table{
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+  
+  .table table tr th{
+    font-size: 1em;
+    font-weight: 300;
+    border: solid 1px #ededed;
+    padding:3px 0px 3px 0px;
+    background-color: #fff;
+    color:#786FC2;
+  }
+
+  .table table tr td{
+    font-size: 1em;
+    font-weight: 300;
+    border: solid 1px #ededed;
+    padding:3px 0px 3px 0px;
+    background-color: #fff;
+  }
+  
+  .table table img {
+  	width: 100px;
+  	height: 100px;
+  }

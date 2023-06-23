@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+
+/* Container 849 */
+* {
+	font-family: Poppins;
+	margin: 0;
+}
+
+.main-container {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+	display: flex;
+    width: 100%;
+}
+
+.header-container { 
+    display: flex;
+    background: #fff;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 0px 24px;
+    justify-content: center;
+  }
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  padding: 0; margin: 0;
+}
+
+.table{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #786FC2;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 6px 0px #fbebeb);
+}
+.table table{
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.table-header{
+  color:#786FC2;
+}
+
+
+.table table tr th{
+  font-size: 1em;
+  font-weight: 300;
+  border: solid 1px #ededed;
+  padding:3px 0px 3px 0px;
+  font-family: 'Muli', sans-serif;
+  background-color: #fff;
+  color:#786FC2;
+}
+
+/* (B) SIDEBAR */
+/* (B1) SIDEBAR ITSELF */
+#pgside {
+  width: 20%;
+  box-shadow: 2px 1px 15px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+  transition: width 0.2s;
+}
+
+#pgmain h2 {
+	font-weight: 200;
+    font-size: 1.2em;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.fa-arrow-down {
+	margin-left: 5px;
+}
+
+/* (B2) USER OR BRANDING */
+#pgside #pguser {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+#pgside #pguser img {
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 50%
+}
+
+/* (B3) SIDEBAR ITEMS */
+#pgside, #pgside a { 
+	color: black; 
+}
+
+#pgside a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#pgside a.current { background: #58518f; }
+#pgside a:hover { 
+	background: #786fc2; 
+	}
+
+/* (B4) SIDEBAR ICONS & TEXT */
+#pgside i.ico, #pgside i.txt { font-style: normal; }
+#pgside i.ico {
+  font-size: 1.1em;
+  margin-right: 10px;
+}
+
+/* (B5) SMALL SCREEN TRANSFORMATION */
+@media screen and (max-width:768px) {
+  #pgside { width: 20%; }
+  #pgside #pguser { justify-content: center; }
+  #pgside a {
+    text-align: center;
+    padding: 20px 0;
+  }
+  #pgside i.ico {
+    font-size: 1.5em;
+    margin-right: 0;
+  }
+  #pgside i.txt { display: none; }
+}
+
+/* (C) MAIN CONTENTS */
+#pgmain {
+  flex-grow: 1;
+  padding: 20px;
+  background: #f2f2f2;
+}
+  
+  
+  

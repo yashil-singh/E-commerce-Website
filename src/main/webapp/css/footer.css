@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+* {
+	margin: 0;
+	font-family: Poppins;
+}
+.footer {
+	width: 100%;
+	background: #fbebeb; 
+  	border-radius: 0px; 
+  	box-shadow: rgba(149, 157, 165, 0.2) 8px 0px 24px;
+	display: block;
+}
+
+.footer-container {
+	width: 100%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: flex-end;
+}
+
+.footer-title {
+	width: 50%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.footer-title p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: black;
+}
+
+.footer-title h1 {
+	color: black;
+}
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	color: black;
+}
+
+.footer-items img {
+	max-width: 80%;
+}
+
+.footer-items p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: black;
+}
+
+.footer-items h1 {
+	color: black;
+	font-weight: 700;
+}
+
+.border1 {
+	height: 3px;
+	width: 40px;
+	background: #786FC2;
+	border: 0px;
+}
+
+.footer ul {
+	list-style: none;
+	color: black;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	padding: 0;
+}
+
+.footer ul a {
+	text-decoration: none;
+	outline: none;
+	color: black;
+	transition: 0.2s;
+}
+
+.footer ul a:hover {
+	color: #786FC2;
+}
+
+.footer ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media img {
+	height: 25px;
+	width: 25px;
+	margin: 20px 10px;
+	padding: 4px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.social-media img:hover {
+	transform: scale(1.1);
+}
+ 
+.footer-bottom {
+	padding: 10px;
+	background: #786FC2;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+	.footer-container {
+		justify-content: flex-start;
+	}
+}
+

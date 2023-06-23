@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+
+/* Container 849 */
+* {
+	font-family: Poppins;
+	margin: 0;
+}
+
+.header-container { 
+    display: flex; 
+    background: #fff; 
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 8px 0px 24px;
+  }
+  
+.right-container {
+	display: flex;
+	margin-left: auto 
+}
+  
+.logo {
+	color: #786FC2;
+  padding-left: 15px;
+}
+
+/* Header menu 37 */
+.header-menu {
+    display: flex; 
+    align-items: center; 
+    font-family: Inter; 
+    font-size: 16px; 
+    line-height: 26px; 
+    opacity: 1; 
+    width: 50%;
+  }
+  /* Header menu 37 - Item */
+  .header-menu .header-menu-item {
+    margin: 1px 34px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 0px; 
+    cursor: pointer; 
+    white-space: nowrap; 
+  }
+  
+  .header-menu-item a {
+  	text-decoration: none;
+  	color: #565D6DFF; 
+    transition: 0.25s;
+  }
+  
+  /* Header menu 37 - Selected item */
+  .header-menu .header-menu-item.selected {
+    position: relative; 
+    font-weight: bold; 
+    color: #786FC2; 
+  }
+  /* Header menu 37 - Selected item */
+  .header-menu .header-menu-item a:hover{
+    color: #786FC2; 
+  }
+
+
+/* Button 1279 */
+.cart {
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #171A1FFF; 
+    background: #00000000; 
+  }
+  .cart img {
+    width: 25px; 
+    height: 25px;
+    cursor: pointer; 
+  }
+
+
+  /* Image 534 */
+.image {
+    position: absolute; 
+    top: 20px; 
+    left: 24px; 
+    width: 96px; 
+    height: 28px; 
+    border-radius: 0px; 
+  }
+  
+.fa .fa-search {
+	cursor: pointer;
+}
+
+a {
+  color: #000;
+}
+
+
+@media (max-width: 700px) {
+	.header-container {
+		flex-direction: column;
+	}
+	.logo {
+		padding: 0px;
+		margin-bottom: 10px;
+	}
+	.header-menu {
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.right-container {
+		margin: 0px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 700px) {
+	.header-menu-items {
+		margin: 0px 10px;
+	}
+}
+
+  

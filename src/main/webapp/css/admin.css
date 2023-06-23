@@ -1,0 +1,189 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Poppins;
+}
+
+select {
+	width: auto;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+}
+
+
+
+body {
+	background: #f2f2f2;
+}
+
+.container {
+	min-height: 100vh;
+}
+
+.pgmain {
+	flex-grow: 1;
+  	background: #f2f2f2;
+  	max-width: 100%;
+}
+
+.value-button-container {
+	display: flex;
+}
+
+
+.form-wrapper .Heading {
+	font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.row-1 {
+	display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.row-1 .input-box{
+	width: 100%;
+}
+
+.row-2 {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+
+.row-2 input[type=text] {
+	width: 95%;
+}
+
+.form-container {
+	display:flex;
+	justify-content: center;
+	margin: 50px 0px;
+}
+
+.form-container table {
+	border: 1px solid;
+	padding: 20px;
+}
+
+.form-container input[type=text],  input[type=number]{
+    width: auto;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+}
+
+.form-wrapper{
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.form-wrapper form{
+	background: f2f2f2;
+}
+
+.form-wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.form-wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #796FC3FF;
+}
+
+.heading {
+	font-size: 50px;
+	color: #796FC3FF;
+	display: flex;
+	justify-content: center;
+}
+
+.heading h1 a {
+	text-decoration: none;
+	color: #796FC3FF;
+}
+
+.value-button {
+	background: #796FC3FF;
+}
+
+.add-button {
+	border: 0;
+    padding: 10px 30px;
+    background: #796FC3FF;
+}
+
+/* Card for Dashboard UI*/
+
+.cards-container {
+	margin: 50px 100px;
+	display: flex;
+	justify-content: space-evenly;	
+}
+
+.cards-container .row-3 {
+	width: 30%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 7px #dfdfdf;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.cards-container .row-2 {
+	width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 7px #dfdfdf;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.cards-container img {
+	max-width: 50%; 
+}
+
+.cards-container a {
+	color: black;
+}
+
+.table-container {
+	margin: 50px 0px;
+}
+
+.update-delete a{
+	border: 1px solid; 
+	background: #e5e5e5; 
+	text-decoration: none;
+	color: black;
+}
+
+.update-delete button{
+	font-size: 15px;
+}
+

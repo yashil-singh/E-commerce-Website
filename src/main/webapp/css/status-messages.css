@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+
+.status-message {
+	display: flex;
+    justify-content: center;
+}
+
+.error-message {
+	color: red;
+	display: flex;
+}
+
+.sucess-message {
+	color: green;
+	display: flex;
+}
